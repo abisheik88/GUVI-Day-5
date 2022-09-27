@@ -2,7 +2,6 @@
 var rotate =function turn(arr,k){
     var tmp=0;
     let leng= arr.length;
-    //k= k%leng;
     for( var i=0;i<k;i++){
       tmp=arr.pop();
       arr.unshift(tmp);
